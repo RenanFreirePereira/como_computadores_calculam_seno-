@@ -18,8 +18,8 @@ def fatorial(n):
 def seno(x):
     somatorio = 0.0
     n = 0
-    while(n <= 80):
-
+    while(n < 80):
+        # Serão realizadas 80 somas, é o suficiente, visto que quando maior n, a fórmula mais tende a 0. 
         # Calcula-se os três elementos do somatório 
         # Separando a fórmula em três elementos
         # e salvando o valor de cada um, numa variável.
@@ -36,5 +36,5 @@ def seno(x):
     return somatorio
 
 # Usando as funções:
-print(seno(3.14/4))
+print(seno(3.14/4)) # O ângulo é passado em radianos. 
 
