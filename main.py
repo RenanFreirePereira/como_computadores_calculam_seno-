@@ -29,10 +29,9 @@ def seno(x):
     x = graus_em_radi(x)
     while(n < 80):
         # Serão realizadas 80 somas, é o suficiente, visto que quando maior n, a fórmula mais tende a 0. 
-        # Calcula-se os três elementos do somatório 
-        # Separando a fórmula em três elementos
-        # e salvando o valor de cada um, numa variável.
-        # Cada elemento está separado por cor na imagem anexa.
+        # Realiza-se o cálculo separando a função em três partes distinstas
+        # e salvando o valor de cada oarte, numa variável.
+        # Cada parte está separada por uma cor na imagem anexa.
         numerador = math.pow(-1.0, n) # Está em amarelo na imagem.
         denominador = fatorial(2 * n + 1) # Está em rosa. 
         fator = x ** (2*n + 1) # Está em laranja. 
