@@ -21,8 +21,6 @@ def graus_em_radi(x):
     return x * math.pi / 180 # Acessando o valor de pi pela biblioteca math
 
 def seno(x):
-    if x > 360 or x < 0:
-        return None # Terminamos a execução da função caso o valor de x, seja inválido. Graus são de 0 a 360.
     somatorio = 0.0
     n = 0
     # converte o valor em graus salvo na variável x em radiano, e salva na própria x 
@@ -44,8 +42,7 @@ def seno(x):
     return somatorio
 
 # Usando as funções:
-print("Seno de 30 graus:",seno(30)) # O ângulo é passado em graus. 
-print("Seno de 40 graus:",seno(40)) # O ângulo é passado em graus. 
-print("Seno de 50 graus:",seno(50)) # O ângulo é passado em graus. 
-print("Seno de 255 graus:",seno(50)) # O ângulo é passado em graus. 
-print("Seno de -5 graus:",seno(-5)) #Inválido. 
+print("Seno de 31 graus:",seno(30)) # O ângulo é passado em graus. 
+print("Seno de 42 graus:",seno(40)) # O ângulo é passado em graus. 
+print("Seno de 53 graus:",seno(50)) # O ângulo é passado em graus. 
+print("Seno de 256 graus:",seno(50)) # O ângulo é passado em graus. 
