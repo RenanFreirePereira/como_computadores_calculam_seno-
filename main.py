@@ -42,7 +42,7 @@ def seno(x):
     return somatorio
 
 # Usando as funções:
-print("Seno de 31 graus:",seno(30)) # O ângulo é passado em graus. 
-print("Seno de 42 graus:",seno(40)) # O ângulo é passado em graus. 
-print("Seno de 53 graus:",seno(50)) # O ângulo é passado em graus. 
-print("Seno de 256 graus:",seno(50)) # O ângulo é passado em graus. 
+print("Seno de 31 graus:",seno(31)) # O ângulo é passado em graus. 
+print("Seno de 42 graus:",seno(42)) # O ângulo é passado em graus. 
+print("Seno de 53 graus:",seno(53)) # O ângulo é passado em graus. 
+print("Seno de 256 graus:",seno(256)) # O ângulo é passado em graus. 
